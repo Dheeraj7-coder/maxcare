@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(function () {
     index = (index + 1) % images.length;
     banner.style.backgroundImage = `url('${images[index]}')`;
-  }, 3000);
+  }, 4000);
 });
 
 // banner txt effect
